@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from preview.colorlib.com/theme/cozastore/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 02 Apr 2023 07:08:28 GMT -->
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% block cssblock %}
+    {% endblock %}
+</head>
+<body class="animsition">
+{% include 'homepage/narbar.html' %}
+
+{% block contentblock %}
+{% endblock %}
+
+{% include 'homepage/foodter.html' %}
+{% block jsblock %}
+{% endblock %}
+</body>
+</html>
